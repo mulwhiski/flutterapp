@@ -135,10 +135,50 @@ class _HomePageState extends State<HomePage> {
                       height: 10,
                     ),
                     Container(
-                      height: 200,
+                      height: 220,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(25),
-                          color: Colors.amber
+                          color: Colors.amber,
+                      ),
+                      alignment: Alignment.topCenter,
+                      child: Container(
+                        height: 220,
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image:  AssetImage("assets/party5.jpg"),
+                            fit: BoxFit.cover
+                          ),
+                          borderRadius: BorderRadius.circular(20),
+                          color: Colors.deepPurple
+                        ),
+                        alignment: Alignment.bottomCenter,
+                        child: Padding(
+                          padding: const EdgeInsets.only(bottom: 20),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: <Widget>[
+                              Expanded(
+                                child: Container(
+                                  height: 50,
+                                  width: 300,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Container(
+                                  margin: EdgeInsets.all(60),
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    color: Colors.white
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
                       ),
                     ),
                     SizedBox(
@@ -150,6 +190,45 @@ class _HomePageState extends State<HomePage> {
                         borderRadius: BorderRadius.circular(25),
                         color: Colors.blue,
                       ),
+                      child: Container(
+                        height: 220,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image:  AssetImage("assets/party3.jpg"),
+                                fit: BoxFit.cover
+                            ),
+                            borderRadius: BorderRadius.circular(20),
+                            color: Colors.deepPurple
+                        ),
+                        alignment: Alignment.bottomCenter,
+                        child: Padding(
+                          padding: const EdgeInsets.only(bottom: 20),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: <Widget>[
+                              Expanded(
+                                child: Container(
+                                  height: 50,
+                                  width: 300,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Container(
+                                  margin: EdgeInsets.all(60),
+                                  decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      color: Colors.white
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
                     ),
                     SizedBox(
                       height: 10,
@@ -160,6 +239,45 @@ class _HomePageState extends State<HomePage> {
                         borderRadius: BorderRadius.circular(25),
                         color: Colors.white,
                       ),
+                      child: Container(
+                        height: 220,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image:  AssetImage("assets/party2.jpg"),
+                                fit: BoxFit.cover
+                            ),
+                            borderRadius: BorderRadius.circular(20),
+                            color: Colors.deepPurple
+                        ),
+                        alignment: Alignment.bottomCenter,
+                        child: Padding(
+                          padding: const EdgeInsets.only(bottom: 20),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: <Widget>[
+                              Expanded(
+                                child: Container(
+                                  height: 50,
+                                  width: 300,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Container(
+                                  margin: EdgeInsets.all(60),
+                                  decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      color: Colors.white
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
                     ),
                     SizedBox(
                       height: 10,
@@ -169,6 +287,45 @@ class _HomePageState extends State<HomePage> {
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(25),
                         color: Colors.deepPurple,
+                      ),
+                      child: Container(
+                        height: 220,
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image:  AssetImage("assets/party7.jpg"),
+                                fit: BoxFit.cover
+                            ),
+                            borderRadius: BorderRadius.circular(20),
+                            color: Colors.deepPurple
+                        ),
+                        alignment: Alignment.bottomCenter,
+                        child: Padding(
+                          padding: const EdgeInsets.only(bottom: 20),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: <Widget>[
+                              Expanded(
+                                child: Container(
+                                  height: 50,
+                                  width: 300,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(20),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                child: Container(
+                                  margin: EdgeInsets.all(60),
+                                  decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      color: Colors.white
+                                  ),
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
                       ),
                     ),
                   ],
