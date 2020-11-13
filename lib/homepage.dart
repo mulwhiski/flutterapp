@@ -71,6 +71,10 @@ class _HomePageState extends State<HomePage> {
                   Container(
                     width: 160,
                     decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage("assets/party1.jpg"),
+                        fit: BoxFit.cover
+                      ),
                       borderRadius: BorderRadius.circular(20),
                       color: Colors.tealAccent
                     ),
@@ -81,6 +85,10 @@ class _HomePageState extends State<HomePage> {
                   Container(
                     width: 160,
                     decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage("assets/party2.jpg"),
+                        fit: BoxFit.cover
+                      ),
                       borderRadius: BorderRadius.circular(20),
                       color: Colors.yellow
                     ),
@@ -91,6 +99,10 @@ class _HomePageState extends State<HomePage> {
                   Container(
                     width: 160,
                     decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage("assets/party3.jpg"),
+                        fit: BoxFit.cover
+                      ),
                       borderRadius: BorderRadius.circular(20),
                       color: Colors.deepPurple
                     ),
@@ -101,6 +113,10 @@ class _HomePageState extends State<HomePage> {
                   Container(
                     width: 160,
                     decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage("assets/party4.jpg"),
+                        fit: BoxFit.cover
+                      ),
                       borderRadius: BorderRadius.circular(20),
                       color: Colors.blueGrey
                     ),
